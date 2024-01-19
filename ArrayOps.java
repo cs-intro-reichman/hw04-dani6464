@@ -86,7 +86,10 @@ public class ArrayOps {
     public static boolean containsTheSameElements(int [] array1,int [] array2) {
         return containsAllElements(array1, array2) && containsAllElements(array2, array1);
     }
-
+    
+    /* Thank you!! you are the only one I saw that did it.
+    a perfect example of code reuse.
+    */
     private static boolean containsAllElements(int [] array1, int [] array2){
         int n1 = array1.length;
         int n2 = array2.length;

@@ -23,8 +23,8 @@ public class StringOps {
     //////        in Recitation 3 question 5             ///////
     //////                                               ///////
     ////////////////////////////////////////////////////////////
-
-    String vowels = "aeiouAEIOU";
+    
+    String vowels = "aeiouAEIOU";// what is this? a variable outside of a function? what does that mean?
     public static void main(String[] args) {        
     }
     
@@ -97,7 +97,7 @@ public class StringOps {
             currentStart++;
         }
 
-
+        // we didn't learn foreach
         for (int spaceIndex : spaceIndexesArr){
             // only spaced after words
             if (spaceIndex < currentStart){
